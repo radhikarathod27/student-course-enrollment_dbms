@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Aarohi@2005",      # change if needed
+    password="A",      # change if needed
     auth_plugin="mysql_native_password"
 )
 cursor = conn.cursor()
@@ -150,5 +150,6 @@ cursor.close()
 conn.close()
 
 print("✅ 1000 synthetic Student–Course–Enrollment records created successfully")
+
 
 
